@@ -10,41 +10,111 @@
         <link rel = 'icon' href = 'html5.png' type = 'image/x-icon'>
         <link rel = 'stylesheet' href = 'main.css' type = 'text/css'>
     </head>
+
     <body>
-        <h1> Hello World! </h1>
+        <header>
+            <h1> My Goals for the Year </h1>
+
+        <nav area-label = 'primary-navigation'>
+            <ul>
+                <li> <a href = '#html'>Learning HTML</a> </li>
+                <li> <a href = '#vacation'>Vacation</a> </li>
+            </ul>
+        </nav>
+        </header>   
 
         <hr>
-
-        <h2> I'm Ready to Learn HTML </h2>
-        <p> This is my second web page (first using HTML). </p>
-
+        <main>
+            <article id = 'html'> 
+                <h2> I'm Ready to Learn HTML </h2>
+                <p> This is my second web page (first using HTML). </p>
+                <section>
+                    <h3> HTML5 </h3>
+                <figure>
+                <figcaption> An Example of HTML5 Code </figcaption>
+                <p> 
+                <code>&lt;h1&gt; Hello World! &lt;/h1&gt; </code>
+            </p>
+            <img src = 'img/html_logo_300x300.png' alt = "HTML5 Logo" title = 'I am learning HTML5' width = '300' height = '300'>
+        </figure>
+        </section>
+        <section>
         <h3> My Daily Schedule </h3>
-        <p> Let me tell you how:
-            <br> &nbsp; &nbsp; &nbsp; I learn more about web dev.
-            <br> &nbsp; &nbsp; &nbsp; I plan out my schedule.
-            <br> &nbsp; &nbsp; &nbsp; I use resources from the internet
-        </p>
-
+        <p> Let me tell you how:</p>
+            <ol>
+                <br> <li>I learn more about web dev.</li>
+                <br> <li>I plan out my schedule.</li>
+                <br> <li>I use resources from the 
+                    <a href = 'https://google.com'> 
+                       Internet 
+                    </a>
+                    </li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>
+                        Guess the <mark>number of words </mark> I write per day?
+                    </summary>
+                    <p>
+                        I aim for at least 250 words per day, and stretch for 500.
+                    </p>
+                </details>
+            </aside>
+            </section>
+        </article>
         <hr>
-
+        <article id = 'vacation'>
         <h2> I Am Also Planning a Vacation </h2>
+
         <p> I've been working <strong>hard</strong> and <em>really need a getaway. </em> </p>
         <p> I live in <abbr title = 'Minnesota'>MN</abbr> and I want to visit Portland. </p>
         
         <!-- TODO: Figure out more food places -->
+        <section>
         <h3> Things I'd Like to Check Out </h3>
-        <p> Food Cart Pods </p>
-        <p> Coffee Shops </p>
-        <p> Thai Food </p>
-        <p> Powell's Books is supposed to be cool too:</p>
-        <address>
-            1005 W Burnside St
-            <br> Portland, OR 
-            <br> 97209
-        </address>
-
+        <ul>
+            <li> <p> Food Cart Pods </p> 
+                <figure>
+                    <img src = 'img/caribbean.jpg' alt = 'Caribbean Beach' title = 'This is not Portland or a food cart pod' width = '400' height = '225' loading = 'lazy'>
+                    <figcaption> This is not what a food cart pod looks like. </figcaption>
+                </figure>
+            </li>
+            <li> <p> Coffee Shops </p> </li>
+            <li> <p> Thai Food </p> </li>
+            <li> <p> Powell's Books is supposed to be cool too:</p>
+            <address>
+                1005 W Burnside St
+                <br> Portland, OR 
+                <br> 97209
+            </address>
+            <figure>
+                <img src = 'img/vacation.jpg' alt = 'Cancun Vacation' title = 'This is, again, not Portland' loading = 'lazy' width = '400' height = '267' >
+                <figcaption> This is not what Powell's Books looks like. </figcaption>
+            </figure>
+             </li>
+        </ul>
+    </section>
+    <section>
+        <h3>
+            Other Places I Want to Visit
+        </h3>
+            <dl>
+                <dt> Philadelphia </dt>
+                <dd> Should I move here? </dd>
+                <dt> Atlanta </dt>
+                <dd> Or should I move here? </dd>
+            </dl>
+        </article>
+        </main>
         <hr>
-
-        &lt; &lt; &lt; &copy; Jack Quick &gt; &gt; &gt;
+        <footer>
+            <p>
+                &lt; &lt; &lt; &copy; <a href = 'about.html'> Jack Quick </a> &gt; &gt; &gt;
+            </p>
+        <p>
+            <a href = '#'> Back to Top </a>
+        </p>
+    </section>
+    </footer>
     </body>
 </html>
